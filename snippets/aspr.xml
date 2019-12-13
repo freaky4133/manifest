@@ -1,0 +1,33 @@
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+           
+   <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" remote="aspr" />	
+  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" remote="aspr" />	
+  <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" remote="aspr" />
+  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch" remote="aspr" />	
+  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" remote="aspr"  />	
+  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" remote="aspr" />
+  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" remote="aspr" />
+  <project path="hardware/qcom/sdm710/data/ipacfg-mgr" name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" groups="vendor,qcom_sdm710" remote="aspr" />	
+  <project path="hardware/qcom/sdm710/display" name="platform/hardware/qcom/sdm710/display" groups="qcom_sdm710" remote="aspr" >	
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />	
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />	
+  </project>	
+  <project path="hardware/qcom/sdm710/gps" name="platform/hardware/qcom/sdm710/gps" groups="qcom_sdm710" remote="aspr" />	
+  <project path="hardware/qcom/sdm710/media" name="platform/hardware/qcom/sdm710/media" groups="qcom_sdm710" remote="aspr" />	
+  <project path="hardware/qcom/sdm710/thermal" name="platform/hardware/qcom/sdm710/thermal" groups="qcom_sdm710" remote="aspr" />	
+  <project path="hardware/qcom/sdm710/vr" name="platform/hardware/qcom/sdm710/vr" groups="qcom_sdm710" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" remote="aspr" >	
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />	
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />	
+  </project>	
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="qcom_sdm845" remote="aspr" />	
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" remote="aspr" /> 
+           
+</manifest>
