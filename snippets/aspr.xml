@@ -1,8 +1,6 @@
- 
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-           
+        
    <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" remote="aspr" />	
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" remote="aspr" />	
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" remote="aspr" />
