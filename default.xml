@@ -4,6 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  
+  <remote  name="aspr"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" 
+           revision="refs/tags/android-9.0.0_r51"/>
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -677,6 +682,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Custom repos -->
+  <include name="snippets/aspr.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/aex.xml" />
   
