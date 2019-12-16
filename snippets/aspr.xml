@@ -27,5 +27,20 @@
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aspr" />	
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="qcom_sdm845" remote="aspr" />	
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" remote="aspr" /> 
+
+<!----gapps------>
+   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+<remote name="gitlabb" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gitlabb" />
+
+<!-- arm64 depends on arm -->
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gitlabb" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="gitlabb" />
+
+<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="gitlabb" />
+<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="gitlabb" />
            
 </manifest>
