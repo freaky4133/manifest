@@ -153,5 +153,5 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/kati" />
-  <remove-project name="vendor/gapps" />
+  <!--remove-project name="vendor/gapps" /-->
 </manifest>
