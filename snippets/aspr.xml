@@ -4,10 +4,10 @@
    <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" remote="aspr" />	
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" remote="aspr" />	
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" remote="aspr" />
-  <!--<project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch" remote="aspr" />	
+  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch" remote="aspr" />	
   <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" remote="aspr"  />	
   <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" remote="aspr" />
-  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" remote="aspr" />
+  <!--<project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" remote="aspr" />
   <project path="hardware/qcom/sdm710/data/ipacfg-mgr" name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" groups="vendor,qcom_sdm710" remote="aspr" />	
   <project path="hardware/qcom/sdm710/display" name="platform/hardware/qcom/sdm710/display" groups="qcom_sdm710" remote="aspr" >	
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />	
