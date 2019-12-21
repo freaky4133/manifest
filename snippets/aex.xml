@@ -92,7 +92,7 @@
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" />
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8952" />
+<!--  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8952" /> -->
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8994" />
@@ -102,7 +102,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8952" />
+<!--  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8952" /> -->
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
@@ -112,7 +112,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los"/>
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8952" />
+<!--  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8952" /> -->
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8994" />
@@ -226,5 +226,9 @@
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang/3.9/prebuilt/linux-x86_64" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang/4.0/prebuilt/linux-x86_64" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang/6.0/prebuilt/linux-x86_64" remote="github" revision="pie" />
-
+<!-- UPDATED HAL FOR MSM 8952-->
+  <project path="hardware/qcom/audio-caf/msm8952" name="AmolAmrit/android_hardware_qcom_audio" remote="github" revision="pie" />
+ 	<project path="hardware/qcom/display-caf/msm8952" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="pie" />
+	<project path="hardware/qcom/media-caf/msm8952" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="pie" />
+  
 </manifest>
