@@ -16,6 +16,10 @@
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
            revision="refs/heads/9.x" />
+  
+  <remote  name="freaky4133"
+           fetch="https://github.com/freaky4133"
+           revision="refs/heads/9.x" />
 
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
